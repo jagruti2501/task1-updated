@@ -1,38 +1,494 @@
 .App {
   text-align: center;
+  position: absolute;
+  margin: 3 0 -3 3;
+  font-family: 'Poppins';
+  width: 1520px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.menu-button {
+  margin: 10px 1450px 15px 27px;
+  width: 122;
+  height: 123;
+  opacity: 1;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.link-button-solution{
+  position: absolute;
+  margin: 20px 1133px 53px 508px;
+  background-color: #fff;
+  display: flex;
+  border: none;
+  cursor: pointer;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.link-button-pricing{
+  position: absolute;
+  margin: 20px 999px 53px 675px;
+  background-color: #fff;
+  display: flex;
+  border: none;
+  cursor: pointer;
+}
+
+.link-button-support{
+  position: absolute;
+  margin: 20px 853px 53px 811px;
+  background-color: #fff;
+  display: flex;
+  border: none;
+  cursor: pointer;
+}
+
+.link-button-login{
+  position: absolute;
+  margin: 20px 100px 53px 1200px;
+  background-color: #fff;
+  display: flex;
+  border: none;
+  cursor: pointer;
+}
+
+.link-button-signup{
+  position: absolute;
+  margin: 20px 220px 53px 550px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.email-img{
+  display: flex;
+}
+
+.email-input {
+  position: relative; /* Set the container to relative positioning */
+  text-align: center; /* Center align the text */
+  margin: 200px 40px 150px 350px;
+}
+.email-img img{
+  margin-top: 100px;
+  height: 400px;
+  width: 350px;
+  margin-right: 300px;
+}
+
+.input-button-container {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  margin-left: 100px;
+  margin-right: 50px;
+  overflow: hidden;
+  border: 1px solid grey; /* Add a smooth black border */
+}
+
+.input-button-container input[type="email"] {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  outline: none;
+  
+}
+
+.input-button-container button.start-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  height: 40px;
+  background-color: #7F72C0;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+}
+
+.real-time-chart{
+  margin: 30px 1000px 100px 65px;;
+  background-origin: padding-box;
+  border: 0.5px solid transparent;
+  border-radius: 20px;
+  width: 445px;
+  height: 150px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); 
+}
+
+.real-time-chart h2{
+  font-size: 15px;
+}
+.real-time-chart img{
+  height: 100px;
+  width: 200px;
+}
+
+.advertisement {
+  height: 520px; /* Adjust height as needed */
+  width: auto;
+  border: 2px solid transparent;
+  background-color: gainsboro;
+  padding: 20px; /* Add padding for spacing within the container */
+  
+}
+
+.t1 h1 {
+  color: #fff;
+  font-size: 30px;
+  margin: 20px 150px 5px 800px; /* Adjust margin-top for spacing */
+  border: 2px solid transparent;
+  text-align: left;
+}
+
+.t1 p {
+  color: black;
+  font-size: 15px;
+  margin: 10px 130px 30px 800px; /* Adjust margin-top for spacing */
+  height: 70px;
+  width: 520px;
+  border: 2px transparent;
+  text-align: left;
+}
+
+.custom-paragraph {
+  color: black;
+  font-size: 15px;
+  margin: 0px 130px 30px 850px; /* Adjust margin-top for spacing */
+  height: 70px;
+  width: 520px;
+  border: 2px transparent;
+}
+
+.footer {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 50px 5px 0px 500px;
+  height: 60px;
+  width: 520px;
+  border: 2px solid black;
+}
+
+.dash {
+  margin: 0px 5px 10px 500px; 
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info{
+  height: 200px;
+  width: auto;
+
+}
+.info h1{
+  height: 80px;
+  width: 500px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  margin-left: 30px ;
+  text-align: left;
+}
+.content{
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 110px; 
+  padding-top: 50px;
+  text-align: left;
+}
+.content2{
+  position: absolute;
+  margin-top: 0px;
+  margin-left:550px; 
+  padding-top: 50px;
+  text-align: left;
+}
+.content3{
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 1000px; 
+  padding-top: 50px;
+  text-align: left;
+}
+.get-start-button{
+  position: absolute;
+  padding: 10px 20px;
+  background-color: #7F72C0;
+  width: 167px;
+  height: 48px;
+  margin-top: 350px;
+  margin-left: -500px;
+  margin-right: 20px;
+  margin-bottom: 100px ;
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+
+}
+.template-and-demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin-top: 400px;
+  height: 1500px;
+}
+
+.template {
+  background-color: black;
+  margin-top: 100px;
+  height: 1000px;
+  width: 90%; /* Adjust the width as needed */
+  padding: 20px; /* Add some padding for spacing */
+  box-sizing: border-box; /* Include padding in width calculation */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+.demo-template {
+  margin-top: 0px;
+  margin-left: 80px;
+  margin-bottom: 100px;
+  height: 200px;
+  padding: 0px;
+  width: 50%; /* Adjust the width as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.demo-template img{
+  margin-left: 300px;
+  margin-bottom: 500px;
+  height: 600px;
+  width: 1000px;
+}
+
+.template h1{
+  color:#fff;
+  font-size: 85px;
+  padding-top: 10px;
+  margin: 0px;
+  margin-left: 280px;
+  margin-right: 1200px;
+}
+.template h2{
+  color:#fff;
+  font-size: 85px;
+  margin: 0px;
+  margin-right: 500px;
+}
+.template h3{
+  color:#fff;
+  font-size: 85px;
+  margin: 0px;
+  margin-left: 70px;
+  margin-right: 700px;
+}
+.template h4{
+  color: #fff;
+  font-size: 60px;
+  margin-left: 70px;
+  margin-right:700px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.template h5{
+  color: gainsboro;
+  font-size: 20px;
+  margin-left: 70px;
+  margin-right:900px;
+  text-align: left;
+  padding-top: 0px;
+  margin-top: 0px;
+  font-weight: lighter;
+}
+
+
+
+.button1 {
+  color: gainsboro;
+  background-color: transparent;
+  border: none;
+  padding-top:60px;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 1000px;
+  text-align: left;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.button2 {
+  color: gainsboro;
+  background-color: transparent;
+  border: none;
+  padding-top:60px;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 1000px;
+  text-align: left;
+  font-size: 25px;
+  cursor: pointer;
+}
+.button3 {
+  color: gainsboro;
+  background-color: transparent;
+  border: none;
+  padding-top:60px;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 1000px;
+  text-align: left;
+  font-size: 25px;
+  cursor: pointer;
+}
+.button4 {
+  color: gainsboro;
+  background-color: transparent;
+  border: none;
+  padding-top:60px;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 1000px;
+  text-align: left;
+  font-size: 25px;
+  cursor: pointer;
+}
+.button5 {
   color: white;
+  background-color: transparent;
+  border: none;
+  padding-top:60px;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 1000px;
+  text-align: left;
+  font-size: 25px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.space{
+  width:auto;
+  height: 800px;
+}
+.space-fill{
+  padding: 50px;
+}
+.about-info-media{
+  background-color: black;
+  color: #fff;
+  height:fit-content;
+}
+.about {
+  background-color: black;
+  color: #fff;
+  height: 150px;
+  display: flex;
+  width: auto;
+  flex-direction: row;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.brief {
+  text-align: left;
+  padding-left: 60px;
+  padding-top: 250px;
+  padding-right: 0px;
+  font-size: 15px;
+  margin-right: 0px;
+  flex: 0.4;
 }
+
+.about-product,
+.about-solutions,
+.about-support,
+.about-compony {
+  margin-top: 135px;
+  padding: 0px;
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+/* Reduce the distance between the sections */
+.about-solutions,
+.about-support,
+.about-compony {
+  margin-left: 1px; /* Adjust this value to reduce the distance */
+}
+
+/* Rest of your styles for buttons */
+.product-buttons li,
+.solution-buttons li,
+.support-buttons li,
+.compony-buttons li {
+  margin-bottom: 10px;
+}
+
+.pb1,
+.pb2,
+.pb3,
+.pb4,
+.pb5,
+.pb6,
+.pb7 {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+}
+/* Add this CSS to style the media icons */
+.media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000; /* Background color for the media bar */
+  height: 60px; /* Adjust the height as needed */
+  margin-top: 650px;
+  margin-left: 300px;
+  
+}
+
+.media a {
+  margin: 0 10px; /* Adjust the margin to control the spacing between icons */
+  color: #fff; /* White color for the icons */
+  font-size: 24px; /* Adjust the font size as needed */
+  text-decoration: none;
+  margin-right: 60px;
+  padding-right: 30px;
+}
+
+/* Add hover effect if desired */
+.media a:hover {
+  opacity: 0.8;
+}
+.media button{
+  color:#fff;
+  background-color: transparent;
+  width: 500px;
+  border: none;
+  margin-left: 500px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
